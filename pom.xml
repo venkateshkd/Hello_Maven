@@ -38,7 +38,7 @@
         <url>http://192.168.12.82:8081/repository/First_Snap/</url>
     </snapshotRepository>
   </distributionManagement>
-
+<!-- Test sample -->
   <build>
     <plugins>
       <plugin>
