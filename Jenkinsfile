@@ -1,5 +1,5 @@
 pipeline {
-	agent any
+	agent { lable 'Node_Machine_37' } 
 	stages {
 	   stage ('Compile Stage'){
 		steps {
