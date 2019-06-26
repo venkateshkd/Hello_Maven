@@ -16,7 +16,7 @@
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
 
-  <modules>
+  butionManagement<modules>
     <module>server</module>
     <module>webapp</module>
   </modules>
@@ -27,11 +27,16 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
-    <repository>
-    <id>internal.repo</id>
-    <name>Internal.repo</name>
-    <url>file:///home/ncodeitadm/ven</url>
+     <repository>
+        <id>venkat</id>
+        <name>Internal Releases1</name>
+        <url>http://192.168.12.82:8081/repository/First_repo/</url>
     </repository>
+    <snapshotRepository>
+        <id>venkat</id>
+        <name>Internal Releases</name>
+        <url>http://192.168.12.82:8081/repository/First_Snap/</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <build>
